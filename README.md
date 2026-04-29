@@ -1,18 +1,18 @@
 [![codecov](https://codecov.io/gh/Vantiv/cnp-chargeback-sdk-python/branch/2.x/graph/badge.svg)](https://codecov.io/gh/Vantiv/cnp-chargeback-sdk-python/branch/2.x) ![Github All Releases](https://img.shields.io/github/downloads/vantiv/cnp-chargeback-sdk-python/total.svg)
-[![GitHub](https://img.shields.io/github/license/vantiv/cnp-chargeback-sdk-python.svg)](https://github.com/Vantiv/cnp-chargeback-sdk-python/2.x/LICENSE) 
-[![GitHub issues](https://img.shields.io/github/issues/vantiv/cnp-chargeback-sdk-python.svg)](https://github.com/Vantiv/cnp-chargeback-sdk-python/issues)
+[![GitHub](https://img.shields.io/github/license/vantiv/cnp-chargeback-sdk-python.svg)](https://github.com/Worldpay/cnp-chargeback-sdk-python/blob/2.x/LICENSE) 
+[![GitHub issues](https://img.shields.io/github/issues/vantiv/cnp-chargeback-sdk-python.svg)](https://github.com/Worldpay/cnp-chargeback-sdk-python/issues)
 
 Vantiv eCommerce Python Chargeback SDK
 =====================
 
 About Vantiv eCommerce
 ------------
-[Vantiv eCommerce](https://developer.vantiv.com/community/ecommerce) powers the payment processing engines for leading companies that sell directly to consumers through  internet retail, direct response marketing (TV, radio and telephone), and online services. Vantiv eCommerce is the leading authority in card-not-present (CNP) commerce, transaction processing and merchant services.
+[Vantiv eCommerce](https://docs.worldpay.com/apis/cnpapi) powers the payment processing engines for leading companies that sell directly to consumers through  internet retail, direct response marketing (TV, radio and telephone), and online services. Vantiv eCommerce is the leading authority in card-not-present (CNP) commerce, transaction processing and merchant services.
 
 
 About this SDK
 --------------
-The Vantiv eCommerce Python Chargeback SDK is a Python implementation of the [Vantiv eCommerce](https://developer.vantiv.com/community/ecommerce) Chargeback API. This SDK was created to make it as easy as possible to manage your chargebacks using Vantiv eCommerce API. This SDK utilizes the HTTPS protocol to securely connect to Vantiv eCommerce. Using the SDK requires coordination with the Vantiv eCommerce team in order to be provided with credentials for accessing our systems.
+The Vantiv eCommerce Python Chargeback SDK is a Python implementation of the [Vantiv eCommerce](https://docs.worldpay.com/apis/cnpapi) Chargeback API. This SDK was created to make it as easy as possible to manage your chargebacks using Vantiv eCommerce API. This SDK utilizes the HTTPS protocol to securely connect to Vantiv eCommerce. Using the SDK requires coordination with the Vantiv eCommerce team in order to be provided with credentials for accessing our systems.
 
 Each Python SDK release supports all of the functionality present in the associated Vantiv eCommerce Chargeback API version (e.g., SDK v2.1.0 supports Vantiv eCommerce Chargeback API v2.1). Please see the Chargeback API reference guide to get more details on what the Vantiv eCommerce chargeback engine supports.
 
@@ -20,7 +20,7 @@ This SDK was implemented to support the Python programming language and was crea
 
 See LICENSE file for details on using this software.
 
-Please contact [Vantiv eCommerce](https://developer.vantiv.com/community/ecommerce) to receive valid merchant credentials in order to run tests successfully or if you require assistance in any way.  We are reachable at sdksupport@Vantiv.com
+Please contact [Vantiv eCommerce](https://docs.worldpay.com/apis/cnpapi) to receive valid merchant credentials in order to run tests successfully or if you require assistance in any way.  We are reachable at sdksupport@worldpay.com
 
 Dependencies
 ------------
@@ -40,7 +40,7 @@ Using pip
 
 Without Pip
 
->git clone https://github.com/Vantiv/cnp-chargeback-sdk-python.git
+>git clone https://github.com/Worldpay/cnp-chargeback-sdk-python.git
 
 >cd cnp-chargeback-sdk-python
 
@@ -86,4 +86,4 @@ response = chargeback_docuemnt.list_documents(xxxx)
 
 ```
 
-Please contact Vantiv eCommerce with any further questions. You can reach us at SDKSupport@Vantiv.com
+Please contact Vantiv eCommerce with any further questions. You can reach us at sdksupport@worldpay.com

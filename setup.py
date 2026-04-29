@@ -15,8 +15,8 @@ setup(
     version='2.1.4',
     description='Vantiv eCommerce Chargeback SDK',
     author='Vantiv eCommerce',
-    author_email='SDKSupport@vantiv.com',
-    url='https://developer.vantiv.com/community/ecommerce',
+    author_email='sdksupport@worldpay.com',
+    url='https://docs.worldpay.com/apis/cnpapi',
     packages=['cnpsdk', 'scripts'],
     install_requires=[
         'PyXB==1.2.6',
@@ -54,7 +54,7 @@ setup(
     long_description='''Vantiv eCommerce Python Chargeback SDK
 =====================================================
 
-.. _`Vantiv eCommerce`: https://developer.vantiv.com/community/ecommerce
+.. _`Vantiv eCommerce`: https://docs.worldpay.com/apis/cnpapi
 
 About Vantiv eCommerce
 ----------------------
@@ -71,7 +71,7 @@ This SDK was implemented to support the Python programming language and was crea
 
 See LICENSE file for details on using this software.
 
-Please contact `Vantiv eCommerce`_ to receive valid merchant credentials in order to run tests successfully or if you require assistance in any way.  We are reachable at sdksupport@Vantiv.com
+Please contact `Vantiv eCommerce`_ to receive valid merchant credentials in order to run tests successfully or if you require assistance in any way.  We are reachable at sdksupport@worldpay.com
 
 Dependencies
 ------------
